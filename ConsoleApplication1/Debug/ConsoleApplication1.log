@@ -1,0 +1,20 @@
+﻿Build started 4/26/2015 6:32:23 PM.
+     1>Project "C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Algorithms.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp
+         ConsoleApplication1.cpp
+     1>c:\users\pat\documents\visual studio 2013\projects\consoleapplication1\ds-project\consoleapplication1\medianfilterqs.h(167): warning C4244: 'initializing' : conversion from 'clock_t' to 'float', possible loss of data
+     1>c:\users\pat\documents\visual studio 2013\projects\consoleapplication1\ds-project\consoleapplication1\consoleapplication1.cpp(112): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\pat\documents\visual studio 2013\projects\consoleapplication1\ds-project\consoleapplication1\consoleapplication1.cpp(80): warning C4715: 'getAverageBucket' : not all control paths return a value
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ConsoleApplication1.obj
+         Debug\stdafx.obj
+         ConsoleApplication1.vcxproj -> C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\Debug\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\pat\Documents\Visual Studio 2013\Projects\ConsoleApplication1\DS-Project\ConsoleApplication1\ConsoleApplication1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68
